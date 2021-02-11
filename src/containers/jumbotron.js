@@ -9,9 +9,10 @@ export function JumbotronContainer() {
         <Jumbotron key={item.id} direction={item.direction}>
           <Jumbotron.Title>{item.title}</Jumbotron.Title>
           <Jumbotron.SubTitle>{item.SubTitle}</Jumbotron.SubTitle>
-          <img src={require("images/misc/home-bg.jpg")} alt={item.alt} />
+          <Jumbotron.Image src={item.image} alt={item.alt} />
         </Jumbotron>
       ))}
     </Jumbotron.Container>
   );
 }
+// "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFFnID762OWUa5LAmwBOYJwqItuDPtJnjl5g&usqp=CAU"

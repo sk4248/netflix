@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Download your programmes to watch on the go.",
     "subTitle": "Save your data and watch all your favourites offline.",
-    "image": "./home-imac.jpg",
+    "image": "images/misc/home-imac.jpg",
     "alt": "Tiger King on Netflix",
     "direction": "row-reverse"
   },
